@@ -1,0 +1,89 @@
+label > [type=checkbox] {
+    vertical-align: -3px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+div > .btn {
+    width: 120px;
+}
+
+/*
+span.logo-lg {
+    font-family: "Quantico", sans-serif;
+    font-size: 26px;
+}
+
+.content-wrapper {
+    background-color: #f5f5f5;
+}
+
+.jumbotron, .well {
+    background-color: #fff;
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side, footer.main-footer {
+    background-color: #232d32;
+}
+
+footer.main-footer {
+    color: #fff;
+    text-align: center;
+}
+
+.skin-blue .sidebar-menu > li.header {
+    color: #aaa;
+    text-transform: uppercase;
+    text-indent: 15%;
+    word-spacing: 12px;
+    font-size: 12px;
+}
+
+.sidebar-menu li.active > a > .fa-angle-left {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.sidebar-menu li > a > .pull-right {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -7px;
+}
+
+.sidebar-menu li > a > .fa-angle-left {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-right: 10px;
+    margin-top: -7px;
+}
+
+label {
+    font-weight: bold;
+    font-family: "Trebuchet MS"
+}
+
+.label {
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 0 0.5em 0.1em
+}
+
+.popover {
+    max-width: 100%;
+    color: #000;
+    border: 2px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5)
+}
+
+.popover-title {
+    background-color: #a3a3a3;
+    color: #ffffff;
+    font-weight: 500
+}
+*/

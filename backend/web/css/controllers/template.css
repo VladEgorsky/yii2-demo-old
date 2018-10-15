@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid_template {
+    background: #DDD;
+}
+
+.grid {
+    max-width: 1200px;
+    min-height: 50px;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid-item {
+    float: left;
+    width: 150px;
+    height: 100px;
+    /*background: rgba(41, 127, 204, 0.7);*/
+    border: 9px solid #DDD;
+}
+
+.grid_source .grid-item {
+    float: none;
+    /*background: rgba(73, 87, 204, 0.7);*/
+}
+
+i.fa {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    cursor: pointer;
+}
+
+/** For common_source_grid */
+.grid-item-w2h4 {
+    width: 300px;
+    height: 200px;
+}
+
+.grid-item-w2h2 {
+    width: 300px;
+    height: 100px;
+}
+
+.grid-item-w1h4 {
+    width: 150px;
+    height: 200px;
+}
+
+.grid-item-w1h2 {
+    width: 150px;
+    height: 100px;
+}
+
+.grid-item-w1h1 {
+    width: 150px;
+    height: 50px;
+}
+
+/** For advert_source_grid */
+.grid-item-w1h3 {
+    width: 150px;
+    height: 135px;
+}
+
+.grid-item-big {
+    width: 287px;
+    height: 180px;
+}
+
+.grid-item-tall {
+    width: 132px;
+    height: 177px;
+}
+
+.grid-item-wide {
+    width: 272px;
+    height: 82px;
+}
+
+.grid-item-md1 {
+    width: 137px;
+    height: 82px;
+}
+
+.grid-item-md1 > img {
+    max-height: 50px;
+}
+
+.grid-item-md2 {
+    width: 130px;
+    height: 82px;
+}
+
+.grid-item-md2 > img {
+    max-height: 50px;
+}
+
+.grid_template > div {
+    border: 1px solid #BBB;
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    color: #FFF;
+}
+
+.red .description {
+    background: #920e1b;
+}
+
+.description-wide {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 40%;
+}
